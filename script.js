@@ -72,6 +72,7 @@ resetButton.addEventListener('click', ()=>{
   scoreDisplay.textContent = score; 
   message.textContent = 'Start Guessing ...'
   number.style.width = `15rem`
+  number.textContent = " ? "
   document.querySelector('body').style.backgroundColor = '#222'
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   
